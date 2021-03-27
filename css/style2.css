@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ background-color: lightblue;
+}
+
+.heart{
+    background: purple;
+    position: absolute;
+    top: 105vh;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    transform: translateY(0) rotate(-45deg);
+    animation: fly 3s linear infinite;
+}
+@keyframes fly{
+    to{
+        transform: translateY(-110vh) rotate(-45deg);
+    }
+}
+.heart::after{
+    background-color: inherit;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+}
+.heart::before{
+    background-color: inherit;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -50%;
+    height: 100%;
+    width: 100%;
+    content: '';
+}

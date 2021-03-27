@@ -1,0 +1,143 @@
+ul.navbar-nav a:hover { color: #287819 !important; }
+.carousel-captionc{
+        position: absolute;
+     /*right: 15%; */
+    bottom: 20px;
+    /* left: 15%; */
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.orange {
+    color: #E18719;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.green {
+        color: #287819;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-orange{
+    background: #E18719 url(../Images/right-snack.png) no-repeat bottom left;
+}
+
+.imgback {
+    background:  url(../Images/about%20us.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.white{
+    color: #fff;
+}
+
+.largemg{
+    margin-bottom: 24px;
+}
+.happy {
+    background:  url(../Images/happy.jpg) no-repeat center;
+    background-size: cover;
+}
+.bg-purple{
+    background: #4f2170 url(../Images/sideicon.png) no-repeat left;
+}
+.h100{
+    height: 350px;
+}
+.ft {
+    margin-left:95px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.green-back{
+    background: url(../Images/green%20line.png) no-repeat top left;
+    text-transform: uppercase;
+   
+}
+.blue-back{
+    background: url(../Images/blue%20line.png) no-repeat top left;
+    text-transform: uppercase;
+}
+.blue-sec{
+    background: url(../Images/blue%20line.png) no-repeat top left;
+    text-transform: uppercase;
+}
+.GBM{
+    text-transform: uppercase;
+    text-justify: center;
+}
+.one{
+    color:#A52323;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two{
+    color: #E18719;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.three{
+    color: #E18719;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.koko{
+    text-transform: uppercase;
+    color:#4f2170;
+}
+.koko2{
+    text-transform: uppercase;
+    color: #4f2170;
+}
+.grey{
+    text-transform: uppercase;
+    color: #E18719;
+    font-family: 'Times New Roman', Times, serif
+}
+.one1{
+    color:#A52323;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: left;
+}
+.Map{
+    color: #4f2170;
+    list-style-type: none;
+    
+}
+.Site{
+    color: #4f2170;
+}
+/*.carousel-item img{
+    height: 70vh;
+    width: 100%
+}*/
+.cursor img:hover{
+    cursor: pointer
+}
+.fas fa-arrow-up{
+    color: orange;
+}
+.veve{
+    /*position: absolute;*/
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  /*width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);*/
+}
+.nav-item{
+    color: #fff;
+}
+.About{
+    height: 50vh;
+}
